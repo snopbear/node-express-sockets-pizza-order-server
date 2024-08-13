@@ -3,11 +3,18 @@ const http = require("http").Server(app);
 const io = require("socket.io")(http);
 const fs = require("fs");
 const path = require("path");
+const cors = require("cors");
+
 
 const port = process.env.PORT || 9090;
 
 const pizzasFilePath = path.join(__dirname, "data", "pizzas.json");
 const pizzaOrdersFilePath = path.join(__dirname, "data", "pizzaOrders.json");
+
+
+// Use CORS middleware
+app.use(cors());
+
 
 io.of("/pizza").on("connection", (socket) => {
   // Send pizza list to client
