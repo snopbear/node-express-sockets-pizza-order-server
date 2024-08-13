@@ -1,0 +1,6 @@
+npm init -y
+npm install express socket.io
+npm install -g nodemon
+
+
+nodemon pizza-server.js
