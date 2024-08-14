@@ -1,22 +1,37 @@
-const app = require("express")();
-const http = require("http").Server(app);
-const io = require("socket.io")(http);
+const express = require("express");
+const http = require("http");
+const { Server } = require("socket.io");
 const fs = require("fs");
 const path = require("path");
 const cors = require("cors");
 
-
+const app = express();
 const port = process.env.PORT || 9090;
 
 const pizzasFilePath = path.join(__dirname, "data", "pizzas.json");
 const pizzaOrdersFilePath = path.join(__dirname, "data", "pizzaOrders.json");
 
+// CORS setup for Express
+app.use(
+  cors({
+    origin: "https://snopbear.github.io", // GitHub Pages URL
+    methods: ["GET", "POST"],
+  })
+);
 
-// Use CORS middleware
-app.use(cors());
+// Create HTTP server and wrap it with Socket.IO
+const server = http.createServer(app);
+const io = new Server(server, {
+  cors: {
+    origin: "https://snopbear.github.io", // GitHub Pages URL
+    methods: ["GET", "POST"],
+  },
+});
 
-
+// Pizza namespace for socket connections
 io.of("/pizza").on("connection", (socket) => {
+  console.log("New client connected to /pizza namespace");
+
   // Send pizza list to client
   fs.readFile(pizzasFilePath, "utf8", (err, data) => {
     if (err) {
@@ -93,6 +108,6 @@ io.of("/pizza").on("connection", (socket) => {
   });
 });
 
-http.listen(port, () =>
+server.listen(port, () =>
   console.log(`Pizza Server is listening on PORT - ${port}`)
 );

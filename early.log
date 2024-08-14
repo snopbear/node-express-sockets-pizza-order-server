@@ -21,4 +21,50 @@
  - 2024-08-13T13:33:29.378Z - End Extension activated
  - 2024-08-13T13:33:29.409Z - Coverage command is running: "npx --no jest --silent -- --coverage --coverageDirectory=/media/assaf/New Volume/Angular-Projects/Assaf-Projects/test/node-express-sockets-pizza-order-server/.early.coverage --silent --passWithNoTests".
  - 2024-08-13T13:33:31.230Z - error
+ - Failed run Coverage command: "npx --no jest --silent -- --coverage --coverageDirectory=/media/assaf/New Volume/Angular-Projects/Assaf-Projects/test/node-express-sockets-pizza-order-server/.early.coverage --silent --passWithNoTests".2024-08-14T20:05:36.530Z - Start Extension 0.4.28 activated for "node-express-sockets-pizza-order-server"
+ - 2024-08-14T20:05:36.770Z - Project is compatible with extension
+ - 2024-08-14T20:05:36.771Z - 'node_modules' is installed
+ - 2024-08-14T20:05:36.772Z - Start Dependencies creation
+ - 2024-08-14T20:05:37.070Z - Initializing user
+ - 2024-08-14T20:05:37.079Z - Watching file system.
+ - 2024-08-14T20:05:37.081Z - Starting IPC server
+ - 2024-08-14T20:05:37.083Z - IPC server started
+ - 2024-08-14T20:05:37.084Z - Start Init Coverage Provider
+ - 2024-08-14T20:05:37.086Z - End Init Coverage Provider
+ - 2024-08-14T20:05:37.087Z - End Dependencies creation
+ - 2024-08-14T20:05:37.365Z - Start Panel Provider creation/registration
+ - 2024-08-14T20:05:37.368Z - End Panel Provider creation/registration
+ - 2024-08-14T20:05:37.368Z - Start Dependencies bootstrapping
+ - 2024-08-14T20:05:37.370Z - Auth state changed
+ - 2024-08-14T20:05:37.371Z - No user data found on auth state change
+ - 2024-08-14T20:05:37.450Z - Auth state changed
+ - 2024-08-14T20:05:37.452Z - End Dehydrating user
+ - 2024-08-14T20:05:37.500Z - Signin - credentials saved
+ - 2024-08-14T20:05:37.501Z - End Dependencies bootstrapping
+ - 2024-08-14T20:05:37.597Z - End Extension activated
+ - 2024-08-14T20:05:37.600Z - Coverage command is running: "npx --no jest --silent -- --coverage --coverageDirectory=/media/assaf/New Volume/Angular-Projects/Assaf-Projects/test/node-express-sockets-pizza-order-server/.early.coverage --silent --passWithNoTests".
+ - 2024-08-14T20:05:39.162Z - error
+ - Failed run Coverage command: "npx --no jest --silent -- --coverage --coverageDirectory=/media/assaf/New Volume/Angular-Projects/Assaf-Projects/test/node-express-sockets-pizza-order-server/.early.coverage --silent --passWithNoTests".2024-08-14T20:09:59.368Z - Start Extension 0.4.28 activated for "node-express-sockets-pizza-order-server"
+ - 2024-08-14T20:09:59.869Z - Project is compatible with extension
+ - 2024-08-14T20:09:59.870Z - 'node_modules' is installed
+ - 2024-08-14T20:09:59.871Z - Start Dependencies creation
+ - 2024-08-14T20:10:00.180Z - Initializing user
+ - 2024-08-14T20:10:00.201Z - Watching file system.
+ - 2024-08-14T20:10:00.202Z - Starting IPC server
+ - 2024-08-14T20:10:00.203Z - IPC server started
+ - 2024-08-14T20:10:00.204Z - Start Init Coverage Provider
+ - 2024-08-14T20:10:00.205Z - End Init Coverage Provider
+ - 2024-08-14T20:10:00.206Z - End Dependencies creation
+ - 2024-08-14T20:10:00.556Z - Start Panel Provider creation/registration
+ - 2024-08-14T20:10:00.559Z - End Panel Provider creation/registration
+ - 2024-08-14T20:10:00.559Z - Start Dependencies bootstrapping
+ - 2024-08-14T20:10:00.561Z - Auth state changed
+ - 2024-08-14T20:10:00.562Z - No user data found on auth state change
+ - 2024-08-14T20:10:00.684Z - Auth state changed
+ - 2024-08-14T20:10:00.688Z - End Dehydrating user
+ - 2024-08-14T20:10:00.725Z - Signin - credentials saved
+ - 2024-08-14T20:10:00.727Z - End Dependencies bootstrapping
+ - 2024-08-14T20:10:00.816Z - End Extension activated
+ - 2024-08-14T20:10:00.819Z - Coverage command is running: "npx --no jest --silent -- --coverage --coverageDirectory=/media/assaf/New Volume/Angular-Projects/Assaf-Projects/test/node-express-sockets-pizza-order-server/.early.coverage --silent --passWithNoTests".
+ - 2024-08-14T20:10:03.331Z - error
  - Failed run Coverage command: "npx --no jest --silent -- --coverage --coverageDirectory=/media/assaf/New Volume/Angular-Projects/Assaf-Projects/test/node-express-sockets-pizza-order-server/.early.coverage --silent --passWithNoTests".
